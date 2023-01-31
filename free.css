@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body, html {
+    height: 100%
+}
+
+.background {
+    background-image: url("background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainpage {
+    margin-left: 180px;
+    padding: 10px 10px;
+}
+
+.home-info-box-1 {
+    border-radius: 25px;
+    background: #f3ff74;
+    padding: 20px;
+    width: 45vw;
+    height: 60vh;
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    box-shadow: 5vh 2vw 0px 10px #c9d304;
+    font-size: 100%
+}
+
+p {
+    font-size: 1.6vw;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+    opacity: .5;
+    transform: translateX(20px);  
+}
+
+.sidemenu {
+    border-radius: 25px;
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 5px;
+    overflow-x: hidden;
+    padding: 15px;
+    text-align: center;
+    background: transparent;
+  }
+
+.sidemenu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+  }
+
+.sidemenu-icon {
+    background-color: white;
+    display: inline-block;
+}
+
+.sidemenu a:hover {
+    opacity: .5;
+    transform: translateX(20px);
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+.selected {
+  font-size: 20px;
+}

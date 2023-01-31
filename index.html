@@ -6,32 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tathluach Chol</title>
     <link rel="stylesheet" type="text/css" href="sidemenu.css"></link>
-    <link rel="stylesheet" type="text/css" href="first-style.css"></link>
+    <link id="freeStyleSheet" rel="stylesheet" type="text/css" href="free.css"></link>
 </head>
 <body>
     <div class="background">
         <div class="sidemenu">
             <a href="index.html">
-                <img src="home_button.png" alt="Home Button" width="100" height="100">
+                <img src="home_button.png" alt="Home Button" style="width:90px;height:90px;" onclick="resizeImage(this)">
                 <div class="selected">Home</div>
             </a>
             <a href="portfolio.html">
-                <img src="portfolio_button.png" alt="Portfolio Button" width="64" height="64">
+                <img src="portfolio_button.png" alt="Portfolio Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
                 <div>Portfolio</div>
             </a>
             <a href="qualifications.html">
-                <img src="qualifications_button.png" alt="Qualifications Button" width="64" height="64">
+                <img src="qualifications_button.png" alt="Qualifications Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
                 <div>Qualifications</div>
             </a>
             <a href="service.html">
-                <img src="service_button.png" alt="Service Button" width="64" height="64">
+                <img src="service_button.png" alt="Service Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
                 <div>Service</div>
             </a>
             <a href="ai.html">
-                <img src="ai_button.png" alt="AI Button" width="64" height="64">
+                <img src="ai_button.png" alt="AI Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
                 <div>AI</div>
             </a>
+            <button onclick="toggleStyleSheet()" type="button">
+                <img src="switchtostrict.png" alt="Home Button">
+                <div>Switch</div>
+            </button>
         </div>
+        <script src="switchmodes.js"></script>
         <div class="mainpage">
             <h1>Home Page</h1>
             <div class="home-info-box-1">
