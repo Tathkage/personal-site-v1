@@ -1,11 +1,10 @@
 .sidemenu {
     border-radius: 25px;
-    width: 100px;
+    width: 130px;
     position: fixed;
     z-index: 1;
     top: 20px;
     left: 5px;
-    /* background: #F1E5AC; */
     overflow-x: hidden;
     padding: 15px;
     text-align: center;
@@ -28,4 +27,8 @@
 
 .sidemenu a:hover {
     opacity: .5;
+}
+
+.selected {
+  font-size: 20px;
 }
