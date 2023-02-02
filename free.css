@@ -204,13 +204,12 @@ header h2 {
 / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .page-selection {
-	position: absolute; 
-	top: 20px;
-    left: 15px;
+	position: absolute;
+	top: 3vh;
+    left: 1vw;
     width: 100px;
 }
 .page-selection a {
-    padding-bottom: 50px;
     text-decoration: none;
     font-size: 15px;
     color: #000000;
@@ -221,22 +220,23 @@ header h2 {
     text-align: center;
     margin-left: auto;
     margin-right:auto;
-
+    max-height: 80px;
 }
 .page-selection a:hover {
     opacity: .5;
     transform: translateX(20px);
 }
 .landing-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("home_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .landing-icon-active {
-    width: 80px;
+    padding-bottom: 20px;
+    width: 64px;
     height: 80px;
     background-image: url("home_button.png");
     background-repeat: no-repeat;
@@ -244,15 +244,15 @@ header h2 {
     background-size: contain;
 }
 .portfolio-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("portfolio_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .portfolio-icon-active {
-    width: 80px;
+    width: 64px;
     height: 80px;
     background-image: url("portfolio_button.png");
     background-repeat: no-repeat;
@@ -260,15 +260,15 @@ header h2 {
     background-size: contain;
 }
 .qualifications-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("qualifications_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .qualifications-icon-active {
-    width: 80px;
+    width: 64px;
     height: 80px;
     background-image: url("qualifications_button.png");
     background-repeat: no-repeat;
@@ -276,15 +276,15 @@ header h2 {
     background-size: contain;
 }
 .service-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("service_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .service-icon-active {
-    width: 80px;
+    width: 64px;
     height: 80px;
     background-image: url("service_button.png");
     background-repeat: no-repeat;
@@ -292,15 +292,15 @@ header h2 {
     background-size: contain;
 }
 .ai-icon {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("ai_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .ai-icon-active {
-    width: 80px;
+    width: 64px;
     height: 80px;
     background-image: url("ai_button.png");
     background-repeat: no-repeat;
@@ -309,8 +309,8 @@ header h2 {
 }
 .switch-icon {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 80px;
     background-image: url("switchtostrict.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -326,7 +326,7 @@ header h2 {
     color: #000000;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    padding: 0px 0px 120px 0px;
+    padding: 0vw 0vw 10vh 0vw;
 }
 .switch-icon:hover {
     opacity: .5;
@@ -338,16 +338,20 @@ header h2 {
     background-size: contain;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 	position: absolute; 
-	top: 720px;
-    left: 15px;
+	top: 65vh;
+    left: 1vw;
     width: 100px;
+    max-height: 5vh;
+    padding-top: 9vh;
 }
 .tath-sites-github-icon {
-    display: block;
-    width: 64px;
-    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 80px;
     background-image: url("github.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -355,7 +359,6 @@ header h2 {
     margin-left: auto;
     margin-right:auto;
     text-align: center;
-    padding-bottom: 50px;
     text-decoration: none;
     font-size: 15px;
     color: #000000;
@@ -366,9 +369,12 @@ header h2 {
     transform: translateX(20px);
 }
 .tath-sites-linkedin-icon {
-    display: block;
-    width: 64px;
-    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 48px;
+    height: 80px;
     background-image: url("linkedin.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -376,7 +382,6 @@ header h2 {
     margin-left: auto;
     margin-right:auto;
     text-align: center;
-    padding-bottom: 50px;
     text-decoration: none;
     font-size: 15px;
     color: #000000;
