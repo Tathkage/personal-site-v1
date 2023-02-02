@@ -14,3 +14,7 @@ function toggleStyleSheet() {
 
     styleElement.setAttribute("href", newFileName);
 }
+
+function toggleImage(click) {
+    click.parentElement.classList.toggle('hidden');
+}

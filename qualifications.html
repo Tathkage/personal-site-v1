@@ -1,46 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tathluach Chol</title>
-    <link rel="stylesheet" type="text/css" href="sidemenu.css"></link>
+	<meta charset="utf-8">
+	<title>Tathluach Chol</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Tathluach Chol">
+	<meta name="description" content="Tathluach Chol's personal website of accomplishments and prospects.">
     <link id="freeStyleSheet" rel="stylesheet" type="text/css" href="free.css"></link>
 </head>
-<body>
-    <div class="background">
-        <div class="sidemenu">
-            <a href="index.html">
-                <img src="home_button.png" alt="Home Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
-                <div class="selected">Home</div>
-            </a>
-            <a href="portfolio.html">
-                <img src="portfolio_button.png" alt="Portfolio Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
-                <div>Portfolio</div>
-            </a>
-            <a href="qualifications.html">
-                <img src="qualifications_button.png" alt="Qualifications Button" style="width:90px;height:90px;" onclick="resizeImage(this)">
-                <div>Qualifications</div>
-            </a>
-            <a href="service.html">
-                <img src="service_button.png" alt="Service Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
-                <div>Service</div>
-            </a>
-            <a href="ai.html">
-                <img src="ai_button.png" alt="AI Button" style="width:64px;height:64px;" onclick="resizeImage(this)">
-                <div>AI</div>
-            </a>
-            <button onclick="toggleStyleSheet()" type="button">
-                <img src="switchtostrict.png" alt="Home Button">
-                <div>Switch</div>
-            </button>
-        </div>
-        <script src="switchmodes.js"></script>
-        <div class="mainpage">
-            <h1>Tathluach Chol: Qualifications</h1>
-            <p>Nunc consequat interdum varius sit amet mattis. Suspendisse ultrices gravida dictum fusce ut. Vitae aliquet nec ullamcorper sit amet. Nunc vel risus commodo viverra maecenas. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Pretium lectus quam id leo in vitae turpis. Viverra adipiscing at in tellus integer feugiat. Pulvinar neque laoreet suspendisse interdum consectetur libero. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Rutrum quisque non tellus orci ac auctor augue. Risus nec feugiat in fermentum posuere. Congue quisque egestas diam in arcu. Ornare arcu dui vivamus arcu felis bibendum. Fermentum odio eu feugiat pretium nibh. Libero enim sed faucibus turpis in eu mi bibendum neque. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Est velit egestas dui id ornare arcu odio. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Sociis natoque penatibus et magnis dis parturient montes nascetur. Facilisis magna etiam tempor orci eu lobortis elementum nibh.</p>
-        </div>
-    </div>
+
+<body id="tathluach-website">
+<div class="page-wrapper">
+
+	<section class="page-intro" id="page-intro">
+		<header role="banner">
+			<header class="page-header">My Qualifications</header>
+			<header class="page-subheader">Technical skills and interests.</header>
+		</header>
+
+	</section>
+
+	<div class="qualifications-main" id="qualifications-main" role="main">
+		<div class="qualifications-section-1" id="qualifications-section-1" role="article">
+			<h3>Resume</h3>
+			<p>HTML version of resume.</p>
+			<p>Resume but HTML version.</p>
+		</div>
+
+		<div class="qualifications-section-2" id="qualifications-section-2" role="article">
+			<h3>Technical Skills</h3>
+			<p>Skills from resume.</p>
+			<p>Resume but skills.</p>
+		</div>
+
+		<div class="qualifications-section-3" id="qualifications-section-3" role="article">
+			<h3>Technical Areas of Interest</h3>
+			<p>Back end.</p>
+			<p>Not front end.</p>
+		</div>
+
+	</div>
+
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+
+			<div class="page-selection" id="page-selection">
+				<nav role="navigation">
+						<a href="index.html" class="landing-icon"><div class="icon-text">Home</div></a>
+						<a href="portfolio.html" class="portfolio-icon"><div class="icon-text">Portfolio</div></a>
+						<a href="qualifications.html" class="qualifications-icon-active"><div class="icon-text">Qualifications</div></a>
+						<a href="service.html" class="service-icon"><div class="icon-text">Service</div></a>
+						<a href="ai.html" class="ai-icon"><div class="icon-text">AI</div></a>
+						<button onclick="toggleStyleSheet()" class="switch-icon" type="button"><div class="button-text">Switch</div></button>
+						<script src="switch-modes.js"></script>
+				</nav>
+			</div>
+
+			<div class="tath-sites" id="tath-sites">
+                <a href="https://github.com/Tathkage" target="_blank" class="tath-sites-github-icon" title="Look closer at my projects on GitHub.">GitHub</a>
+                <a href="https://www.linkedin.com/in/tathluach-chol-799314230/" target="_blank" class="tath-sites-linkedin-icon" title="Look more into my professional background on LinkedIn.">LinkedIn</a>
+            </div>
+		</div>
+	</aside>
+
+
+</div>
+
 </body>
 </html>
