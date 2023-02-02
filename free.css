@@ -215,135 +215,97 @@ header h2 {
     font-size: 15px;
     color: #000000;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+
 }
 .page-selection a:hover {
     opacity: .5;
     transform: translateX(20px);
 }
-.icon-text {
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1;
-}
 .landing-icon {
-    display: block;
     width: 64px;
     height: 64px;
     background-image: url("home_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .landing-icon-active {
-    display: block;
     width: 80px;
     height: 80px;
     background-image: url("home_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .portfolio-icon {
-    display: block;
     width: 64px;
     height: 64px;
     background-image: url("portfolio_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .portfolio-icon-active {
-    display: block;
     width: 80px;
     height: 80px;
     background-image: url("portfolio_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .qualifications-icon {
-    display: block;
     width: 64px;
     height: 64px;
     background-image: url("qualifications_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .qualifications-icon-active {
-    display: block;
     width: 80px;
     height: 80px;
     background-image: url("qualifications_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .service-icon {
-    display: block;
     width: 64px;
     height: 64px;
     background-image: url("service_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .service-icon-active {
-    display: block;
     width: 80px;
     height: 80px;
     background-image: url("service_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .ai-icon {
-    display: block;
     width: 64px;
     height: 64px;
     background-image: url("ai_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .ai-icon-active {
-    display: block;
     width: 80px;
     height: 80px;
     background-image: url("ai_button.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: center;
 }
 .switch-icon {
     display: block;
