@@ -4,4 +4,82 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
+
+body {
+  margin: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
+/*                        Header Section                        *
+/ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+.page-subheader {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  font-weight: bold;
+  font-size: 20px;
+}
+header h1 {
+  /* overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 50px; */
+}
+header h2 {
+  /* position: absolute;
+  top: 50px;
+  left: 220px; */
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
+/*                        Into Section                          *
+/ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
+/*                        Navigation Section                    *
+/ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.navigation {
+  /* overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 50px; */
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  /* float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; */
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  /* background-color: #ddd;
+  color: black; */
+}
+
+/* Add a color to the active/current link */
+.navigation a:active {
+  /* background-color: #04AA6D;
+  color: white; */
+}
