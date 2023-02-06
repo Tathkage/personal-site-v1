@@ -203,13 +203,13 @@ header h2 {
 /*                        Navigation Section                    *
 / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.page-selection {
-	position: absolute;
+.navigation {
+    position: absolute;
 	top: 3vh;
     left: 1vw;
     width: 100px;
 }
-.page-selection a {
+.navigation a {
     text-decoration: none;
     font-size: 15px;
     color: #000000;
@@ -220,9 +220,9 @@ header h2 {
     text-align: center;
     margin-left: auto;
     margin-right:auto;
-    max-height: 80px;
+    max-height: 80px;    
 }
-.page-selection a:hover {
+.navigation a:hover {
     opacity: .5;
     transform: translateX(20px);
 }
@@ -326,24 +326,11 @@ header h2 {
     color: #000000;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    padding: 0vw 0vw 10vh 0vw;
+    padding: 0vw 0vw 5vh 0vw;
 }
 .switch-icon:hover {
     opacity: .5;
     transform: translateX(20px);
-}
-.tath-sites {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-left: auto;
-    margin-right: auto;
-	position: absolute; 
-	top: 65vh;
-    left: 1vw;
-    width: 100px;
-    max-height: 5vh;
-    padding-top: 9vh;
 }
 .tath-sites-github-icon {
     display: flex;
@@ -364,10 +351,6 @@ header h2 {
     color: #000000;
     font-weight: bold;
 }
-.tath-sites-github-icon:hover {
-    opacity: .5;
-    transform: translateX(20px);
-}
 .tath-sites-linkedin-icon {
     display: flex;
     flex-direction: column;
@@ -386,8 +369,4 @@ header h2 {
     font-size: 15px;
     color: #000000;
     font-weight: bold;
-}
-.tath-sites-linkedin-icon:hover {
-    opacity: .5;
-    transform: translateX(20px);
 }
