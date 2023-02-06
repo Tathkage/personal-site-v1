@@ -205,8 +205,8 @@ header h2 {
 
 .navigation {
     position: absolute;
-	top: 3vh;
-    left: 1vw;
+	top: 1em;
+    left: 1em;
     width: 100px;
 }
 .navigation a {
@@ -235,7 +235,7 @@ header h2 {
     background-size: contain;
 }
 .landing-icon-active {
-    padding-bottom: 20px;
+    padding-bottom: 1em;
     width: 64px;
     height: 80px;
     background-image: url("home_button.png");
@@ -326,7 +326,7 @@ header h2 {
     color: #000000;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
-    padding: 0vw 0vw 5vh 0vw;
+    padding: 0em 0em 4em 0em;
 }
 .switch-icon:hover {
     opacity: .5;
