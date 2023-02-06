@@ -2,18 +2,18 @@ function toggleStyleSheet() {
 
     const styleElement = document.getElementById("freeStyleSheet");
     var fileName = styleElement.getAttribute("href");
-    var newFileName = "strict.css";
+    var newFileName = "free.css";
 
-    if (fileName == "free.css") {
-        newFileName = "strict.css";
+    if (fileName == "strict.css") {
+        newFileName = "free.css";
     }
     else {
-        newFileName = "free.css";
+        newFileName = "strict.css";
     }
 
     styleElement.setAttribute("href", newFileName);
     localStorage.setItem("stylesheet", newFileName);
-    
+
 }
 
 window.onload = function() {
