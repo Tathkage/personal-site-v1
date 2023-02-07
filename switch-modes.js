@@ -18,8 +18,8 @@ function toggleStyleSheet() {
 
 window.onload = function() {
 
-    const styleSheetName = localStorage.getItem("stylesheet");
-    const htmlStyleElement = document.getElementById("freeStyleSheet");
+    var styleSheetName = localStorage.getItem("stylesheet") || "strict.css";
+    var htmlStyleElement = document.getElementById("freeStyleSheet");
     htmlStyleElement.setAttribute("href", styleSheetName);
 
 }
