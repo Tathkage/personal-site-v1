@@ -5,144 +5,218 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
-body {
-    min-height: auto;
-}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
-/*                        Into Section                          *
+/*                        Main Section                          *
 / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.landing-intro-2 {
-    border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 600px;
-    position: absolute;
-    top: 100px;
-    left: 180px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
-}
-.landing-section-1 {
-    border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 500px;
-    height: 600px;
-    position: absolute;
-    top: 150px;
-    left: 200px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
-}
+/* .landing-main {
+    position: fixed;
+    top: 5%;
+    height: 5em;
+    width: 100%;
+  } */
+  .portfolio-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+    height: 10em;
+  }
+  .qualifications-main {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+    height: 33em;
+  }
+  .service-main {
+    display: flex;
+    gap: 5%;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 100%;
+    height: 33em;
+  }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * *
+/*                        Intro/Section Section                         *
+/ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .page-intro {
     border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 500px;
-    height: 50px;
-    position: absolute;
-    top: 20px;
-    left: 200px;
+    position: fixed;
+    top: 2%;
+    left: 10%;
+    width: 30%;
+    height: 6em;
+    box-shadow: 20px 15px 0px 5px #c9d304;
+    font-size: 100%
+}
+.landing-sub-1 {
+    border-radius: 25px;
+    background: #f3ff74;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    height: 25em;
+    width: 50%;
     box-shadow: 25px 20px 0px 10px #c9d304;
     font-size: 100%
 }
-
+.landing-section-1 > h3 {
+    margin-left: 2.5%;
+}
+.landing-section-2 > p {
+    margin-left: 2.5%;
+}
 .portfolio-section-1 {
+    width: 40%;
+    height: 150%;
+    left: 5%;
     border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 170px;
-    left: 200px;
     box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+    margin-bottom: 2%;
 }
-
+.portfolio-section-1 > h3 {
+    margin-left: 5%;
+}
+.portfolio-section-1 > p {
+    margin-left: 5%;
+}
 .portfolio-section-2 {
+    width: 40%;
+    height: 150%;
     border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 170px;
-    left: 700px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+    box-shadow: 25px 20px 0px 10px #c9d304;    
 }
-
+.portfolio-section-2 > h3 {
+    margin-left: 5%;
+}
+.portfolio-section-2 > p {
+    margin-left: 5%;
+}
 .portfolio-section-3 {
+    width: 40%;
+    height: 150%;
     border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 560px;
-    left: 200px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+    box-shadow: 25px 20px 0px 10px #c9d304;    
 }
-
+.portfolio-section-3 > h3 {
+    margin-left: 5%;
+}
+.portfolio-section-3 > p {
+    margin-left: 5%;
+}
 .portfolio-section-4 {
+    width: 40%;
+    height: 150%;
     border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 560px;
-    left: 700px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+    box-shadow: 25px 20px 0px 10px #c9d304;    
 }
-
+.portfolio-section-4 > h3 {
+    margin-left: 5%;
+}
+.portfolio-section-4 > p {
+    margin-left: 5%;
+}
 .qualifications-section-1 {
-    border-radius: 25px;
     background: #f3ff74;
-    padding: 20px;
-    width: 500px;
-    height: 690px;
-    position: absolute;
-    top: 170px;
-    left: 200px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
-}
-
-.qualifications-section-2 {
+    height: 100%;
+    width: 30%;
     border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 170px;
-    left: 800px;
     box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
 }
-
-.qualifications-section-3 {
+  .qualifications-section-1 > h3 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+  .qualifications-section-1 > p {
+    font-size: 100%;
+    margin-left: 5%;
+  }
+  .qualifications-sub-1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  .qualifications-section-2 {
+    background: #f3ff74;
+    height: 45%;
+    width: 100%;
     border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 300px;
-    position: absolute;
-    top: 560px;
-    left: 800px;
     box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+  }
+.qualifications-section-2 > h3 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+  .qualifications-section-2 > p {
+    font-size: 100%;
+    margin-left: 5%;
+  }
+  .qualifications-section-3 {
+    background: #f3ff74;
+    height: 45%;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 25px 20px 0px 10px #c9d304;
 }
+  .qualifications-section-3 > h3 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+  .qualifications-section-3 > p {
+    font-size: 100%;
+    margin-left: 5%;
+  }
 
-.service-section-1 {
+  .service-section-1 {
+    background: #f3ff74;
+    border-radius: 25px;
+    box-shadow: 25px 20px 0px 10px #c9d304;
+    height: 100%;
+    width: 40%;
+  }
+  .service-section-1 > h3 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+  .service-section-1 > p {
+    font-size: 100%;
+    margin-left: 5%;
+  }
+  .service-section-2 {
+    background: #f3ff74;
+    border-radius: 25px;
+    box-shadow: 25px 20px 0px 10px #c9d304;
+    height: 100%;
+    width: 40%;
+  }
+  .service-section-2 > h3 {
+    font-size: 150%;
+    margin-left: 5%;
+  }
+  .service-section-2 > p {
+    font-size: 100%;
+    margin-left: 5%;
+  }
+
+/* .service-section-1 {
     border-radius: 25px;
     background: #f3ff74;
     padding: 20px;
@@ -166,7 +240,7 @@ body {
     left: 700px;
     box-shadow: 25px 20px 0px 10px #c9d304;
     font-size: 100%
-}
+} */
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
 /*                        Header Section                        *
