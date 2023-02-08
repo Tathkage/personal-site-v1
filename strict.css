@@ -9,6 +9,9 @@ html {
 body {
   margin: 0;
 }
+a {
+  color: #f2f2f2;
+}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
 /*                        Header Section                        *
@@ -114,8 +117,8 @@ body {
 }
 .landing-section-2 > p {
   margin-left: 3%;
-  font-size: 100%;
-  font-size: 100%
+  text-align: left;
+  font-size: 180%;
 }
 .portfolio-section-1 {
   background-color: #333;
@@ -176,6 +179,14 @@ body {
 .portfolio-section-4 > p {
   font-size: 100%;
   margin-left: 5%;
+}
+.resume-pdf {
+  background-image: url(resume.png);
+  background-size: 100% 100%;
+  height: 80%;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .qualifications-section-1 {
   background-color: #333;

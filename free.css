@@ -10,12 +10,6 @@ html {
 /*                        Main Section                          *
 / * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-/* .landing-main {
-    position: fixed;
-    top: 5%;
-    height: 5em;
-    width: 100%;
-  } */
   .portfolio-main {
     display: flex;
     flex-wrap: wrap;
@@ -70,13 +64,15 @@ html {
     height: 25em;
     width: 50%;
     box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
+    font-size: 100%;
 }
 .landing-section-1 > h3 {
     margin-left: 2.5%;
+    font-size: 200%;
 }
 .landing-section-2 > p {
     margin-left: 2.5%;
+    font-size: 200%;
 }
 .portfolio-section-1 {
     width: 40%;
@@ -138,6 +134,14 @@ html {
     width: 30%;
     border-radius: 25px;
     box-shadow: 25px 20px 0px 10px #c9d304;
+}
+.resume-pdf {
+    background-image: url(resume.png);
+    background-size: 100% 100%;
+    height: 80%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
   .qualifications-section-1 > h3 {
     font-size: 150%;
@@ -215,32 +219,6 @@ html {
     font-size: 100%;
     margin-left: 5%;
   }
-
-/* .service-section-1 {
-    border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 600px;
-    position: absolute;
-    top: 170px;
-    left: 200px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
-}
-
-.service-section-2 {
-    border-radius: 25px;
-    background: #f3ff74;
-    padding: 20px;
-    width: 400px;
-    height: 600px;
-    position: absolute;
-    top: 170px;
-    left: 700px;
-    box-shadow: 25px 20px 0px 10px #c9d304;
-    font-size: 100%
-} */
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * *
 /*                        Header Section                        *
