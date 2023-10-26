@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tathluac/repositories/PersonalWebsite
+    - export DEPLOYPATH=/home/tathluac/public_html
     - /bin/cp -R images $DEPLOYPATH
