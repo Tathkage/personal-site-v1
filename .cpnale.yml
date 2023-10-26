@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tathluac/repositories/PersonalWebsite
+    - /bin/cp -r * $DEPLOYPATH
