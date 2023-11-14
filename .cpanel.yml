@@ -3,14 +3,11 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/tathluac/public_html
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp ai.html $DEPLOYPATH
     - /bin/cp portfolio.html $DEPLOYPATH
     - /bin/cp qualifications.html $DEPLOYPATH
-    - /bin/cp service.html $DEPLOYPATH
     - /bin/cp free.css $DEPLOYPATH
     - /bin/cp strict.css $DEPLOYPATH
     - /bin/cp switch-modes.js $DEPLOYPATH
-    - /bin/cp ai_button.png $DEPLOYPATH
     - /bin/cp altbackground.png $DEPLOYPATH
     - /bin/cp background.png $DEPLOYPATH
     - /bin/cp github.png $DEPLOYPATH
@@ -20,7 +17,6 @@ deployment:
     - /bin/cp portfolio_button.png $DEPLOYPATH
     - /bin/cp qualifications_button.png $DEPLOYPATH
     - /bin/cp resume.png $DEPLOYPATH
-    - /bin/cp service_button.png $DEPLOYPATH
     - /bin/cp switchtofree.png $DEPLOYPATH
     - /bin/cp switchtostrict.png $DEPLOYPATH
     - /bin/cp tath_main.png $DEPLOYPATH
